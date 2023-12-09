@@ -1,15 +1,5 @@
 # Readme.txt
-# 
-# @author Damien Simonnet <simonnet@ecole.ensicaen.fr>
-#
-# @version 1.0 (July 24, 2009)
-# @version 1.1 (September 03, 2009)
-# add optional command \secondauthoraddr
-# @version 1.2 (September 11, 2009)
-# enables to use \\ in the command \@authoraddr
-#
-# Template latex for ICDP 2009/2011/2013/2015 ICPRS 2016
-#
+# Compile locally with mactex
 
 
 # 1 - Content
