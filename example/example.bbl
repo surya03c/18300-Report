@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{ref01}
+W.~D. Callister and D.~G. Rethwisch, {\em Fundamentals of Materials Science and
+  Engineering: An Integrated Approach, 5th Edition}.
+\newblock John Wiley and Sons, 2001.
+
+\bibitem{ref03}
+P.~J. Schields, ``How waves reveal the atomic structure of crystals: Bragg's
+  law and diffraction.'' Online, 2004.
+
+\bibitem{ref04}
+H.-Z.~B. für Materialien~und Energie, {\em ETA Diffractometer - Microstructure
+  and Residual Stress Analysis}.
+
+\bibitem{ref05}
+J.~F. Shackelford, {\em Introduction to Materials Science for Engineers}.
+\newblock Pearson/Prentice Hall, 2005.
+
+\bibitem{ref06}
+A.~Creuziger, C.~A. Calhoun, W.~A. Poling, and T.~Gn\"{a}upel-Herold,
+  ``{Assessment of Bias Errors Caused by Texture and Sampling Methods in
+  Diffraction-Based Steel Phase Measurements},'' {\em {Journal of Applied
+  Crystallography}}, 2018.
+
+\bibitem{ref07}
+P.~J. Jacques, S.~Allain, O.~Bouaziz, A.~De, A.-F. Gourgues, B.~M. Hance,
+  Y.~Houbaert, J.~Huang, A.~Iza-Mendia, S.~E. Kruger, M.~Radu, L.~Samek,
+  J.~Speer, L.~Zhao, and S.~van~der Zwaag, ``{On Measurement of Retained
+  Austenite in Multiphase TRIP Steels—Results of Blind Round Robin Test
+  Involving Six Different Techniques.},'' {\em {Materials Science and
+  Technology}}, 2009.
+
+\bibitem{ref02}
+D.~Raabe, ``Textures of steels.'' Online, 2003.
+
+\bibitem{ref08}
+A.~Rollett, ``Texture components and euler angles,'' tech. rep., Department of
+  Materials Science and Engineering, Carnegie Mellon University, 2020.
+
+\bibitem{ref09}
+A.~Rollett, ``X-ray texture measurement, pole figures, high energy diffraction
+  microscopy,'' tech. rep., Department of Materials Science and Engineering,
+  Carnegie Mellon University, 2020.
+
+\bibitem{ref10}
+B.~D. Cullity and S.~R. Stock, {\em Elements of X-Ray Diffraction- 3rd ed.}
+\newblock Prentice-Hall, New York, 2001.
+
+\bibitem{ref11}
+B.~Corporation, {\em Background: Texture Analysis by X-ray Diffraction}.
+
+\bibitem{ref12}
+S.~Matthies and H.~R. Wenk, ``Optimization of texture measurements by pole
+  figure coverage with hexagonal grid,'' tech. rep., Department of Geology and
+  Geophysics, University of California, Berkeley, 1992.
+
+\bibitem{ref13}
+A.~Rizzie, T.~Watkins, and E.~Payzant, ``Elaboration on the hexagonal grid and
+  spiral trace schemes for pole figure data collection,'' {\em Powder
+  Diffraction}, vol.~23, no.~87-91. 10.1154/1.2919049., 2008.
+
+\bibitem{ref14}
+M.~Cox, K.~Findley, S.~Chandramouleeswaran, and A.~Creuziger, ``Reducing the
+  effects of texture on phase fraction measurement of retained austenite using
+  x-ray diffraction,'' tech. rep., ASPPRC, Colorado School of Mines, 2020.
+
+\end{thebibliography}
