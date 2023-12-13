@@ -58,24 +58,92 @@ Include timeline diagrams and discuss some important context details here.
 
 \section{Propagation of Light}
 
-Here we discuss EM mechanisms. Start fundamental and work our way up 
+Understanding the electromagnetic properties of optical waveguides is essential for 
+shaping the transmission and confinement of light within these guided structures. 
+At the heart of optical waveguide design lies the manipulation of electromagnetic 
+fields to achieve efficient light guidance and confinement. This section aims to connect the 
+theories of this field to the foundational principles we learned in class.
 
+\subsection{Forces and Trapping Mechanisms}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=8.5cm]{fig1.eps}
-    \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
-    \end{figure}
+In the realm of optical waveguides, the challenge lies in the absence of direct forces to manipulate light. 
+Unlike electronic signals in conductors, light does not respond to traditional electrical forces. 
+Instead, the predominant approach involves confining light within a guided structure, often described as a waveguide, 
+to control its propagation. The guiding of photons through a tubelike structure is the foundational mechanism for light control without 
+applying external forces. The following electromagnetic phenomena make this possible:
+
+\subsection{Total Internal Reflection}
+A fundamental principle employed in optical waveguides is Total Internal Reflection (TIR). By carefully selecting the refractive indices of the core and cladding materials, TIR ensures that light incident on the core-cladding interface is reflected entirely back into the core. This phenomenon acts as the mechanism for trapping and guiding light along the waveguide.
+
+Mathematically, TIR is described by Snell's Law:
+\begin{equation}
+    n_{1} sin(\theta_{1}) = n_{2} sin(\theta_{2})
+\end{equation}
+
+where $n_{1}$ and $n_{2}$ are the refractive indices of the core and cladding, respectively, and $\theta_{1}$ and $\theta_{2}$ are 
+the angles of incidence and reflection.
+
+The core-cladding mechanism is critical to the concept of optical waveguides. More on them below:
+
+\subsection{Cladding Structure}
+
+The cladding structure surrounding the core plays a crucial role in ensuring effective TIR. Typically, the refractive index of the cladding
+$(n_2)$ is lower than that of the core $(n_1)$. This refractive index contrast facilitates the reflection of light back into the core, preventing its escape into the surrounding medium.
+
+The critical angle $(\theta_{crit})$ for total internal reflection is determined by:
+\begin{equation}
+    \theta_{crit} = \arcsin(\frac{n_{cladding}}{n_{core}})
+\end{equation}
+
+This angle dictates the maximum angle of incidence for light within the core to undergo total internal reflection.
+
+\subsection{Core Structure}
+To ensure efficient TIR, the core material is typically chosen to be denser than the cladding. This density contrast enhances the refractive index difference $(n_1 - n_2)$,
+thereby facilitating stronger confinement of light within the core.
+
+\subsection{Overview}
+The electromagnetic properties of optical waveguides are harnessed through careful design of refractive indices, cladding structures, and core materials. 
+Total internal reflection serves as the guiding principle, trapping light within the core and ensuring efficient transmission. 
+By leveraging these principles, optical waveguides become powerful tools in the manipulation and transmission of light, 
+forming the backbone of numerous optical communication and sensing systems. A deeper exploration of these principles provides a foundational understanding essential for designing advanced photonic 
+devices and systems, as being explored in state of the art mechanisms for optical waveguides.
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=8.5cm]{fig1.eps}
+%     \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
+%     \end{figure}
 
 \section{Electromagnetic Mechanisms}
 
-More speciffc here, add TIR and add diagrams and math
+As discussed above, the law of total internal reflection and careful selection of materials are a driving mechanism behind present waveguide technology.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=8.5cm]{fig1.eps}
-    \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
-    \end{figure}
+However, this view is rather simple; modern implementations waveguide incorporate 2 more advanced principles of electromagnetics for 
+efficient and regulated control of light. 
+
+\subsection{Propagation Modes for Multiple Harmonic Wavelengths}
+The propagation of light in optical waveguides is not limited to a single wavelength; instead, various modes accommodate multiple harmonic wavelengths. Each mode represents a specific spatial distribution of the optical field within the waveguide. The ability to support multiple modes is crucial for applications such as wavelength division multiplexing (WDM) in optical communication systems.
+
+The guided modes ($m$) in a waveguide dimensions and the wavelength $(\lambda)$ of the light, following the relationship:
+
+\begin{equation}
+    m\lambda = 2n_{eff}d
+\end{equation}
+
+Where $n_{eff}$ represents the effective refractive index of the guided mode, and
+$d$ is the core diameter. By carefully designing the waveguide dimensions, different modes can be supported, enabling the simultaneous propagation of multiple wavelengths.
+
+\subsection{Birefringence for Encoding Information through Polarization States}
+
+Birefringence, an anisotropic property of certain waveguide materials, introduces a dependence on the polarization state of light. This property is harnessed for encoding information in optical waveguides through polarization modulation.
+By inducing controlled birefringence in the waveguide, information can be encoded in the form of different polarization states. This phenomenon is particularly valuable in applications such as polarization-division multiplexing (PDM) and quantum communication, where polarization states serve as carriers of information.
+
+\subsection{Overview}
+The electromagnetic principles of Total Internal Reflection, diverse propagation modes accommodating multiple harmonic wavelengths, 
+and birefringence for encoding information allows optical waveguides the versatility to aid several broad modern technologies, 
+from high-capacity data transmission in telecommunications to secure quantum communication protocols. Despite the associated complexities within these fields, 
+they all rely on foundational principles discussed in our lectures: of light's interaction with materials, propagation theory, and polarization.
+
 
 \section{System Integration}
 
@@ -90,11 +158,74 @@ Transitions into some more implmentation details that bleeds into state of art d
 
 \textbf{Anirudh}: you can decide how you want to organize this 
 
-\section{Evaluation of the State of the Art}
+\section{Comparative Analysis of Modern Optical Waveguide Technologies}
 
-PIC discussion, materials perspective, etc.
+Advancements in optical waveguide technologies, namely in materials development, have spurred a multitude of developments tailored towards waveguide efficiency and enhanced optical control. This section offers a comparative analysis centered around fabrication research and the introduction of versatility in usage.
+
+\subsection{Fiber Optics vs Photonic Integrated Circuits (PICs)}
+
+Fiber optics have long been the backbone of high-speed data transmission, offering low propagation loss and high bandwidth. However, the emergence of Photonic Integrated Circuits (PICs) has introduced a paradigm shift by integrating multiple optical components onto a single chip. The chip fabrication process is one that is well-defined; silicon fabrication is a technology that has been largely perfected over the past 50 years of innovation. Thus, not only does waveguide integration at the IC level reduce the physical footprint of waveguide manufacturing, but it also enhances the overall throughput of interconnects. Figure \ref{fig:fiber_vs_pic} illustrates the conceptual difference between traditional fiber optics and PICs.
+
+\textbf{ANIRUDH: find a good pic and put it here (literally anywhere its commented out)}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=0.8\linewidth]{fiber_vs_pic.png}
+%     \caption{Comparison between traditional Fiber Optics and Photonic Integrated Circuits (PICs).}
+%     \label{fig:fiber_vs_pic}
+% \end{figure}
+
+This transition from fiber optics to PICs underscores the importance of on-chip integration for next-generation optical communication systems. Improved signal to noise ratio, power efficiency, throughput, reliability, and ease of manufacturing are some of the key benefits; the engineering problem is thus reduced to a 
+materials engineering problem: finding novel materials that adhere to the precision and technologies with the chip fabrication process while retaining inmportant waveguide 
+properties of coupled light control and distortionless transmission of photons through the medium.
+
+\subsection{Silicon Photonics vs Doped Semiconductors}
+
+The selection of materials in photonics is a critical aspect that influences both waveguide design and integration into existing semiconductor processes. 
+Silicon Photonics, leveraging the compatibility with Complementary Metal-Oxide-Semiconductor (CMOS) processes, has gained prominence. However, the fine balance between utilizing traditional CMOS fabrication techniques and incorporating novel materials with superior properties, such as Lithium Niobate, is a topic of ongoing exploration.
+
+Silicon Photonics, depicted in Figure \ref{fig:silicon_vs_doped}, offers a seamless integration path with existing electronic circuits, but its limitations in nonlinear effects and light-emitting capabilities drive the exploration of doped semiconductors. Many of the 
+reasons that Silicon has been a boon for the electronics age can be extended for application in the world of photonics. Silicon performs well across large bandwidths, is capable of high speed modulation, and perhaps most importantly, is highly compatible with existing CMOS technology.
+With that said, limited nonlinear properties and temperature sensitivity render it a rather complex option for seamless integration.
+
+On the other hand, novel materials like Lithium Niobate exhibit excellent nonlinear properties, paving the way for efficient optical modulation and signal processing. Despite 
+challenges present in the fabrication process, as well as reduced bandwidth of performance, Lithium Niobate has well-characterized electromagnetic properties while minimizing propagation loss, 
+making it an active area of research for waveguides on integrated photonics.
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=0.8\linewidth]{silicon_vs_doped.png}
+%     \caption{Comparison between Silicon Photonics and Doped Semiconductors.}
+%     \label{fig:silicon_vs_doped}
+% \end{figure}
+
+The first level of materials-level analysis for improved waveguide performance is centered around the increasing popularity of photonic integrated circuits. 
+The preliminary options require a strong understanding of existing CMOS process flow, and analysis of materials with similar electromagnetic properties, such as Lithium Niobate.
+
+\subsection{Plasmonic Waveguides vs Metamaterials}
+
+Plasmonic Waveguides and Metamaterials represent cutting-edge approaches to guide and manipulate light on a nanoscale, a much different perspective to materials compared to the 'meta' approach taken in the previous section.
+
+Plasmonic Waveguides, exploiting surface plasmon resonance, enable extremely compact devices due to the tight confinement of electromagnetic fields at metal-dielectric interfaces. 
+Firstly, plasmonic waveguides enable the confinement of light in dimensions significantly smaller than the wavelength, making them ideal for applications with stringent size requirements, such as on-chip integration.
+Next, enhanced field confinement from surface plasmon resonance allows plasmonic waveguide structures to be suitable for applications involving sensing and nonlinear optics.
+
+On the other hand, Metamaterials, illustrated in Figure \ref{fig:plasmonic_vs_metamaterial}, provide unprecedented control over the wavefront by tailoring the material's electromagnetic response. 
+Metamaterials can be engineered to display truly exotic phenomena. Along with incredible control over dispersion characteristics, the notion of "negative refractive indices" can be developed, and are highly 
+useful for unconventional waveguides with distinctive transmission characteristics.
 
 
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=0.8\linewidth]{plasmonic_vs_metamaterial.png}
+%     \caption{Comparison between Plasmonic Waveguides and Metamaterials.}
+%     \label{fig:plasmonic_vs_metamaterial}
+% \end{figure}
+
+Plasmonic Waveguides excel in miniaturization but face challenges related to high losses. Metamaterials, while offering superior wavefront control, often require sophisticated fabrication processes. The choice between these technologies depends on specific application requirements, balancing size constraints with the need for precise control over light propagation.
+
+In conclusion, the comparative analysis of these optical waveguide themes highlights the ongoing evolution in the field.
+Although discussion of nanoengineering and technology for waveguides is rather exotic and largely theoretical at this time, 
+such research underscores the exciting progress this field continues to make for communication, encoding, and computing applications.
 
 \section{Concluding Thoughts and Ideas for the Future}
 

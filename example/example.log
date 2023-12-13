@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 04:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -253,12 +253,6 @@ LaTeX Warning: Label `tab1' multiply defined.
 
 LaTeX Warning: Label `tab1' multiply defined.
 
-
-LaTeX Warning: Label `tab1' multiply defined.
-
-
-LaTeX Warning: Label `tab1' multiply defined.
-
 )
 \openout1 = `example.aux'.
 
@@ -400,6 +394,16 @@ File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
 Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 55.
 (pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
+
+Underfull \hbox (badness 4859) in paragraph at lines 61--66
+\OT1/ptm/m/n/10 Understanding the elec-tro-mag-netic prop-er-ties of op-ti-cal
+ []
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+ </Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2023-12-09 19:51:30
 (epstopdf)                    size: 1155157 bytes
@@ -407,68 +411,44 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2023-12-09 19:51:30
 (epstopdf)                    size: 41326 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 66.
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 155.
 (pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 1155157 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 41326 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 76.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 76.
-(pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 1155157 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 41326 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 87.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 87.
-(pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
+LaTeX Warning: Reference `fig:fiber_vs_pic' on page 2 undefined on input line 167.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[2]
 
-(/Users/surya/Downloads/18300FinalReport/example/example.bbl [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Warning: Reference `fig:silicon_vs_doped' on page 3 undefined on input line 186.
 
 
+LaTeX Warning: Reference `fig:plasmonic_vs_metamaterial' on page 3 undefined on input line 212.
 
- </Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf>]) [2
+(/Users/surya/Downloads/18300FinalReport/example/example.bbl) [3] (/Users/surya/Downloads/18300FinalReport/example/example.aux)
 
-] (/Users/surya/Downloads/18300FinalReport/example/example.aux)
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5680 strings out of 478994
- 122140 string characters out of 5858184
- 398060 words of memory out of 5000000
- 23047 multiletter control sequences out of 15000+600000
+ 5683 strings out of 478994
+ 122211 string characters out of 5858184
+ 407662 words of memory out of 5000000
+ 23050 multiletter control sequences out of 15000+600000
  454236 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,77p,276b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (2 pages, 92301 bytes).
+ 73i,8n,77p,823b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (3 pages, 159143 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
