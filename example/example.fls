@@ -474,7 +474,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
@@ -490,18 +489,19 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
-INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
