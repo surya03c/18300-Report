@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,23 +455,8 @@ Package pdftex.def Info: qc.png  used on input line 387.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (/Users/surya/Downloads/18300FinalReport/example/example.bbl
-Underfull \hbox (badness 2460) in paragraph at lines 4--7
-[]\OT1/ptm/m/n/10 H. S. R. J. Ram, ``All-optical wave-length con-verter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
-\OT1/ptm/m/n/10 and switch based on elec-tro-mag-net-i-cally in-duced
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 4--7
-\OT1/ptm/m/n/10 trans-parency,'' \OT1/ptm/m/it/10 Jour-nal of Ap-plied Physics\OT1/ptm/m/n/10 , vol. 76,
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 9--12
-\OT1/ptm/m/it/10 Mul-ti-dis-ci-plinary Dig-i-tal Pub-lish-ing In-sti-tute\OT1/ptm/m/n/10 , vol. 11,
+Underfull \hbox (badness 1924) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/10 H. Schmidt and R. J. Ram, ``All-optical wave-length
  []
 
 ) [6 </Users/surya/Downloads/18300FinalReport/example/qc.png>] (/Users/surya/Downloads/18300FinalReport/example/example.aux) ) 
@@ -484,7 +469,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  73i,8n,77p,685b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (6 pages, 2687021 bytes).
+Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (6 pages, 2687020 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

@@ -4,22 +4,18 @@ The top-level auxiliary file: example.aux
 The style file: ieeetr.bst
 Database file #1: IEEEabrv.bib
 Database file #2: icdp2009.bib
-Too many commas in name 1 of "Sailong Wu, Xin Mu, Luring Cheng, Simei Mao, H.Y. Fu" for entry ref03
-while executing---line 969 of file ieeetr.bst
-Too many commas in name 1 of "Sailong Wu, Xin Mu, Luring Cheng, Simei Mao, H.Y. Fu" for entry ref03
-while executing---line 969 of file ieeetr.bst
 Warning--can't use both author and editor fields in ref04
 You've used 4 entries,
             1876 wiz_defined-function locations,
-            1025 strings with 14317 characters,
-and the built_in function-call counts, 601 in all, are:
-= -- 54
-> -- 16
+            1025 strings with 14331 characters,
+and the built_in function-call counts, 676 in all, are:
+= -- 56
+> -- 33
 < -- 0
-+ -- 8
-- -- 4
-* -- 37
-:= -- 101
++ -- 13
+- -- 9
+* -- 48
+:= -- 116
 add.period$ -- 6
 call.type$ -- 4
 change.case$ -- 2
@@ -27,8 +23,8 @@ chr.to.int$ -- 0
 cite$ -- 5
 duplicate$ -- 36
 empty$ -- 75
-format.name$ -- 4
-if$ -- 143
+format.name$ -- 9
+if$ -- 157
 int.to.chr$ -- 0
 int.to.str$ -- 4
 missing$ -- 6
@@ -38,7 +34,7 @@ pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 4
+skip$ -- 5
 stack$ -- 0
 substring$ -- 0
 swap$ -- 5
@@ -50,4 +46,4 @@ warning$ -- 1
 while$ -- 4
 width$ -- 5
 write$ -- 40
-(There were 2 error messages)
+(There was 1 warning)
