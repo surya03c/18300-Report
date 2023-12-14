@@ -121,6 +121,13 @@ As discussed above, the law of total internal reflection and careful selection o
 However, this view is rather simple; modern implementations waveguide incorporate 2 more advanced principles of electromagnetics for 
 efficient and regulated control of light. 
 
+The basis of the propagation of light through a waveguide can be described using the following relation:
+
+\begin{equation}
+    E_k(x, z) = E_k(x)e^{iKx}e^{i\beta z}
+
+\end{equation}
+
 \subsection{Propagation Modes for Multiple Harmonic Wavelengths}
 The propagation of light in optical waveguides is not limited to a single wavelength; instead, various modes accommodate multiple harmonic wavelengths. Each mode represents a specific spatial distribution of the optical field within the waveguide. The ability to support multiple modes is crucial for applications such as wavelength division multiplexing (WDM) in optical communication systems.
 
@@ -133,10 +140,31 @@ The guided modes ($m$) in a waveguide dimensions and the wavelength $(\lambda)$ 
 Where $n_{eff}$ represents the effective refractive index of the guided mode, and
 $d$ is the core diameter. By carefully designing the waveguide dimensions, different modes can be supported, enabling the simultaneous propagation of multiple wavelengths.
 
+The design requirements for the waveguides may be computed given the following relation:
+\begin{equation}
+    d_i = \frac{\lambda}{4n_i}(2N + 1)\left[1 - \frac{n_c^2}{n_i^2} + \frac{\lambda^2}{4n_i^2d_c^2}\right]^{-0.5}
+
+\end{equation}
+
 \subsection{Birefringence for Encoding Information through Polarization States}
 
 Birefringence, an anisotropic property of certain waveguide materials, introduces a dependence on the polarization state of light. This property is harnessed for encoding information in optical waveguides through polarization modulation.
 By inducing controlled birefringence in the waveguide, information can be encoded in the form of different polarization states. This phenomenon is particularly valuable in applications such as polarization-division multiplexing (PDM) and quantum communication, where polarization states serve as carriers of information.
+
+The birefringence \(\Delta n\) of a material is defined as the difference between the refractive indices of the ordinary ray \(n_o\) and the extraordinary ray \(n_e\):
+
+\[
+\Delta n = n_e - n_o
+\]
+
+For uniaxial crystals, which have one axis that is different from the other two, the birefringence equation can be further explained using the refractive indices:
+
+\[
+\Delta n = \sqrt{\frac{1}{n_o^2} + \frac{1}{n_e^2}}
+\]
+
+The refractive indices \(n_o\) and \(n_e\) can also be functions of the wavelength of the light \(\lambda\) and the temperature of the material \(T\), among other factors.
+
 
 \subsection{Overview}
 The electromagnetic principles of Total Internal Reflection, diverse propagation modes accommodating multiple harmonic wavelengths, 
@@ -147,7 +175,13 @@ they all rely on foundational principles discussed in our lectures: of light's i
 
 \section{System Integration}
 
-Transitions into some more implmentation details that bleeds into state of art discussion 
+\section*{Silicon-Based Photonic Integrated Circuits}
+
+Silicon-based PICs benefit from established semiconductor technologies, offering dense integration due to silicon's high refractive index, despite its indirect bandgap limiting light emission—necessitating hybrid approaches with direct bandgap materials for sources. System integration must address material compatibility, thermal management for performance stability, and the development of low-loss optical-electrical interconnects for coupling with electronic components.
+
+\section*{Metamaterial-Based Photonic Integrated Circuits}
+
+Metamaterial-based PICs exploit engineered structures to achieve unique optical properties, such as negative refractive indices, enabling miniaturization and novel functionalities. The integration challenges include advanced nanofabrication for complex structures, managing high intrinsic losses, and ensuring compatibility with conventional processes. Scalability, testing, packaging, and standardization remain pivotal for the practical application of both PIC types.
 
 
 \begin{figure}[h]
@@ -237,8 +271,8 @@ self explanatory
 \section{Acknowledgements}
 
 bibliography is very important (references section needs to be modified in example.bib)
-\bibliography{IEEEabrv,icdp2009}
 
+\bibliography{IEEEabrv,icdp2009}
 
 \end{document}
 
