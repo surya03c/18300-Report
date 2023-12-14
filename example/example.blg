@@ -2,48 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: example.aux
 The style file: ieeetr.bst
-I found no \citation commands---while reading file example.aux
 Database file #1: IEEEabrv.bib
 Database file #2: icdp2009.bib
-You've used 0 entries,
+Too many commas in name 1 of "Sailong Wu, Xin Mu, Luring Cheng, Simei Mao, H.Y. Fu" for entry ref03
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Sailong Wu, Xin Mu, Luring Cheng, Simei Mao, H.Y. Fu" for entry ref03
+while executing---line 969 of file ieeetr.bst
+Warning--can't use both author and editor fields in ref04
+You've used 4 entries,
             1876 wiz_defined-function locations,
-            1000 strings with 13791 characters,
-and the built_in function-call counts, 20 in all, are:
-= -- 0
-> -- 0
+            1025 strings with 14317 characters,
+and the built_in function-call counts, 601 in all, are:
+= -- 54
+> -- 16
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 8
+- -- 4
+* -- 37
+:= -- 101
+add.period$ -- 6
+call.type$ -- 4
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 5
+duplicate$ -- 36
+empty$ -- 75
+format.name$ -- 4
+if$ -- 143
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 4
 stack$ -- 0
 substring$ -- 0
-swap$ -- 0
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+warning$ -- 1
+while$ -- 4
+width$ -- 5
+write$ -- 40
+(There were 2 error messages)

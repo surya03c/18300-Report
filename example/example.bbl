@@ -1,3 +1,21 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{ref01}
+H.~S. R.~J. Ram, ``All-optical wavelength converter and switch based on
+  electromagnetically induced transparency,'' {\em Journal of Applied Physics},
+  vol.~76, no.~10.1063/1.126620, 2000.
+
+\bibitem{ref03}
+L.~C. S. M. H.~F. Sailong~Wu, Xin~Mu, ``State-of-the-art and perspectives on
+  silicon waveguide crossings: A review,'' {\em Multidisciplinary Digital
+  Publishing Institute}, vol.~11, no.~10.3390/mi11030326, 2020.
+
+\bibitem{ref02}
+R.~G. Hunsperger, {\em Integrated Optics}.
+\newblock Springer New York, NY, 2010.
+
+\bibitem{ref04}
+S.~Bhandarkar, {\em Encyclopedia of Modern Optics}.
+\newblock Elsevier, 2018.
 
 \end{thebibliography}

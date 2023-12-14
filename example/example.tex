@@ -43,7 +43,7 @@ and nanobiophotonics.
 
 As the 20th century saw a massive growth in electronic and nanofabrication, 
 there was an increased motive to deliver an analog of an electronic integrated
-circuit using photons as a unit of data as opposed to electrons in classical analog circuits. 
+circuit using photons as a unit of data as opposed to electrons in classical analog circuits \cite{ref01}.
 This particular application is called integrated photonics, and photonic integrated circuits (PIC) 
 are the devices that utilize this type of technology to include functioning optical components that can 
 process or generate light. 
@@ -73,7 +73,7 @@ Integrated circuits can be dated back to the 1950s when Jack Kilby built the fir
 The term “photonics,” or the science involving applications of light, was popularized to replace electronic technologies 
 after the invention of the diode laser, and waveguides are a photonic component that help with controlling light 
 elements to maximize the efficiency of information processing. While glass fiber technologies have been around 
-since the 19th century, advancements in waveguides allowed for the development of low-loss optical fibers. 
+since the 19th century, advancements in waveguides allowed for the development of low-loss optical fibers \cite{ref03}.
 These are optimal to use in long distance communication since they can minimize signal loss of light traveling 
 through the fiber. The high purity of the silica glass it is typically made out of also helps increase light absorption. 
 
@@ -103,7 +103,7 @@ theories of this field to the foundational principles we learned in class.
 \subsection{Forces and Trapping Mechanisms}
 
 In the realm of optical waveguides, the challenge lies in the absence of direct forces to manipulate light. 
-Unlike electronic signals in conductors, light does not respond to traditional electrical forces. 
+Unlike electronic signals in conductors, light does not respond to traditional electrical forces \cite{ref02}.
 Instead, the predominant approach involves confining light within a guided structure, often described as a waveguide, 
 to control its propagation. The guiding of photons through a tubelike structure is the foundational mechanism for light control without 
 applying external forces. The following electromagnetic phenomena make this possible:
@@ -135,7 +135,7 @@ This angle dictates the maximum angle of incidence for light within the core to 
 
 \subsection{Core Structure}
 To ensure efficient TIR, the core material is typically chosen to be denser than the cladding. This density contrast enhances the refractive index difference $(n_1 - n_2)$,
-thereby facilitating stronger confinement of light within the core.
+thereby facilitating stronger confinement of light within the core \cite{ref04}.
 
 \subsection{Overview}
 The electromagnetic properties of optical waveguides are harnessed through careful design of refractive indices, cladding structures, and core materials. 
@@ -173,7 +173,7 @@ The guided modes ($m$) in a waveguide dimensions and the wavelength $(\lambda)$ 
 \end{equation}
 
 Where $n_{eff}$ represents the effective refractive index of the guided mode, and
-$d$ is the core diameter. By carefully designing the waveguide dimensions, different modes can be supported, enabling the simultaneous propagation of multiple wavelengths.
+$d$ is the core diameter. By carefully designing the waveguide dimensions, different modes can be supported, enabling the simultaneous propagation of multiple wavelengths \cite{ref03}.
 
 The design requirements for the waveguides may be computed given the following relation:
 \begin{equation}
@@ -182,7 +182,7 @@ The design requirements for the waveguides may be computed given the following r
 
 \subsection{Birefringence for Encoding Information through Polarization States}
 
-Birefringence, an anisotropic property of certain waveguide materials, introduces a dependence on the polarization state of light. This property is harnessed for encoding information in optical waveguides through polarization modulation.
+Birefringence, an anisotropic property of certain waveguide materials, introduces a dependence on the polarization state of light \cite{ref01}. This property is harnessed for encoding information in optical waveguides through polarization modulation.
 By inducing controlled birefringence in the waveguide, information can be encoded in the form of different polarization states. This phenomenon is particularly valuable in applications such as polarization-division multiplexing (PDM) and quantum communication, where polarization states serve as carriers of information.
 
 The birefringence \(\Delta n\) of a material is defined as the difference between the refractive indices of the ordinary ray \(n_o\) and the extraordinary ray \(n_e\):
@@ -216,7 +216,7 @@ The birefringence \(\Delta n\) of a material is defined as the difference betwee
         
 \subsection{Silicon-Based Photonic Integrated Circuits}
 
-Silicon-based PICs benefit from established semiconductor technologies, offering dense integration due to silicon's high refractive index, despite its indirect bandgap limiting light emission—necessitating hybrid approaches with direct bandgap materials for sources. System integration must address material compatibility, thermal management for performance stability, and the development of low-loss optical-electrical interconnects for coupling with electronic components.
+Silicon-based PICs benefit from established semiconductor technologies, offering dense integration due to silicon's high refractive index, despite its indirect bandgap limiting light emission—necessitating hybrid approaches with direct bandgap materials for sources \cite{ref01}. System integration must address material compatibility, thermal management for performance stability, and the development of low-loss optical-electrical interconnects for coupling with electronic components.
 
 \begin{figure}[h]
     \centering
@@ -246,7 +246,7 @@ Fiber optics have long been the backbone of high-speed data transmission, offeri
 
 This transition from fiber optics to PICs underscores the importance of on-chip integration for next-generation optical communication systems. Improved signal to noise ratio, power efficiency, throughput, reliability, and ease of manufacturing are some of the key benefits; the engineering problem is thus reduced to a 
 materials engineering problem: finding novel materials that adhere to the precision and technologies with the chip fabrication process while retaining inmportant waveguide 
-properties of coupled light control and distortionless transmission of photons through the medium.
+properties of coupled light control and distortionless transmission of photons through the medium \cite{ref02}.
 
 % \begin{figure}[h]
 %     \centering
@@ -304,7 +304,7 @@ such research underscores the exciting progress this field continues to make for
 The organization of this section is centered around both science and engineering perspectives.
 The science aspect of this problem is centered around challenging the fundamental physical underpinnings that support
 current waveguide structures. The engineering aspect of this problem is application focused: we seek to understand the
-different ways waveguide technology can be applied across a variety of fields.
+different ways waveguide technology can be applied across a variety of fields \cite{ref04}.
 
 
 
@@ -323,12 +323,18 @@ This fluidic control enables adaptive tuning of waveguide properties,
 impacting factors such as dispersion and mode confinement. Optofluidic waveguides,
 therefore, present a versatile platform for tailoring light propagation characteristics.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 8cm]{optofluidic.jpeg}
+    \caption{Optofluidics leveraged for novel lightwave bending and manipulation} 
+    \end{figure}
+
 
 \subsubsection{Metamaterials}
 Metamaterials offer a transformative avenue for advancing waveguide technology by employing dielectric
 metasurfaces to finely control and shape wavefronts. Fundamentally, these engineered materials exhibit
 unique electromagnetic properties not found in nature, allowing precise tailoring of refractive indices
-and wave propagation characteristics. In waveguides, metamaterials are strategically integrated to manipulate
+and wave propagation characteristics \cite{ref03}. In waveguides, metamaterials are strategically integrated to manipulate
 the direction and distribution of guided light.
 
 
@@ -343,7 +349,7 @@ for applications in telecommunications, sensing, and on-chip photonics.
 \subsubsection{Nonlinear Optics}
 Nonlinear optics stands as a pivotal domain for advancing waveguide
 technology by harnessing the inherent nonlinear properties of materials
-to encode information, notably through processes like 4-wave mixing.
+to encode information, notably through processes like 4-wave mixing \cite{ref02}.
 Fundamentally, nonlinear optics explores how the response of a material
 to intense light is not directly proportional to the incident intensity,
 giving rise to phenomena like frequency conversion and optical modulation.
@@ -366,12 +372,21 @@ In the realm of biochip development for integrated photonics, waveguide technolo
 
 Waveguide manufacturing involves photolithography and etching techniques to carve intricate structures on the chip, guiding light through specific pathways. Biochips leverage these waveguides to create miniaturized, integrated optical systems. The waveguides enable targeted light delivery to interact with bioanalytes on the chip's surface, supporting applications such as biosensing, biomolecule detection, and medical diagnostics.
 \subsubsection{Integrated Photonics in Quantum Technology}
-In the realm of quantum computing, the development of waveguide technology within integrated photonics is pivotal for harnessing the unique properties of quantum states. Silicon photonics, as a leading platform, utilizes on-chip waveguides to manipulate and control qubits, the fundamental units of quantum information. These waveguides are intricately designed to guide single photons, allowing for precise interactions with quantum components.
+In the realm of quantum computing, the development of waveguide technology within integrated photonics 
+is pivotal for harnessing the unique properties of quantum states. Silicon photonics, 
+as a leading platform, utilizes on-chip waveguides to manipulate and control qubits, the fundamental units of quantum information \cite{ref03}.
+These waveguides are intricately designed to guide single photons, allowing for precise interactions with quantum components.
 
 
-The integration of on-chip lasers with waveguides plays a crucial role in trapping and manipulating qubits. This configuration enables the creation of quantum circuits, where controlled photon interactions drive quantum gates and operations. The waveguide's ability to guide photons with minimal loss and maintain their quantum coherence is instrumental in the reliability and efficiency of quantum computations.
+The integration of on-chip lasers with waveguides plays a crucial role in trapping and manipulating qubits. 
+This configuration enables the creation of quantum circuits, where controlled photon interactions drive quantum gates and operations \cite{ref01}. The waveguide's ability to guide photons with minimal loss and maintain their quantum coherence is instrumental in the reliability and efficiency of quantum computations.
 Thus, the tailored design of waveguides within integrated photonics is indispensable for the successful implementation of quantum computing applications.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 8cm]{qc.png}
+    \caption{Integrated Photonics and Waveguide Design for Qubit Manipulation} 
+    \end{figure}
 
 
 
