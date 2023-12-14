@@ -32,34 +32,62 @@
 
 
 \abstract
-Replace this with a succint summary of our work. Aim for 100 words  
+Optical Waveguides are structures designed for the careful control/guiding of light (photons) through various media. The manipulation and control of photons 
+for technological applications has steadily risen, most prominently in telecommunications and optical engineering. In our information 
+processing age, where photons have been proposed to encode information much like electrons have, the need to manipulate and robustly maintain state 
+of such photons requires strong control systems in the form of optical waveguides. This report contextualizes waveguide development, 
+starting with a historical perspective and moving with an eye towards the future applications in booming fields such as quantum communication, integrated photonics, 
+and nanobiophotonics. 
 
 \section{Introductory Concepts and Motivations}
 
-Discuss introductory concepts here, something like motivations works well too
+As the 20th century saw a massive growth in electronic and nanofabrication, 
+there was an increased motive to deliver an analog of an electronic integrated
+circuit using photons as a unit of data as opposed to electrons in classical analog circuits. 
+This particular application is called integrated photonics, and photonic integrated circuits (PIC) 
+are the devices that utilize this type of technology to include functioning optical components that can 
+process or generate light. 
 
-\includegraphics[width=8.5cm]{Silicon Photonic.png}
+More importantly, we are interested in the pivotal role that waveguides play in 
+optical communication, a technology that serves a huge role in peoples’ everyday lives, whether from personal 
+cellphones to projects on bigger scales. The major advance in these structures comes with many benefits, 
+including its higher speed, greater area efficiency, lower power dissipation, and increased signal strength 
+since photons are able to travel at the speed of light. While these advantages seem endless, there are still 
+several challenges during the process of designing and manufacturing devices that benefit from these structures.
+For instance, how can high precision be achieved while optimizing material performance without considering electronic 
+properties? 
 
+This leads into our main concern of how light can be controlled without the notion of the change in potential 
+energy of electrons since this cannot easily be accomplished without any force.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{fig1.eps}
-    \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
+    \includegraphics[width = 8cm]{Screenshot 2023-12-13 at 11.02.55 PM.png}
+    \caption{SEM View of Core-Cladding Waveguide Structure} 
     \end{figure}
+
 
 \section{Historical Contextualizations}
 
-Include timeline diagrams and discuss some important context details here.
+Integrated circuits can be dated back to the 1950s when Jack Kilby built the first one at Texas Instruments in 1958. 
+The term “photonics,” or the science involving applications of light, was popularized to replace electronic technologies 
+after the invention of the diode laser, and waveguides are a photonic component that help with controlling light 
+elements to maximize the efficiency of information processing. While glass fiber technologies have been around 
+since the 19th century, advancements in waveguides allowed for the development of low-loss optical fibers. 
+These are optimal to use in long distance communication since they can minimize signal loss of light traveling 
+through the fiber. The high purity of the silica glass it is typically made out of also helps increase light absorption. 
 
-\includegraphics[width=8.5cm]{Jack-Kilby.png}
-\includegraphics[width=8.5cm]{AWG.png}
-\includegraphics[width=8.5cm]{Silicon-Waveguide.png}
+Meint Smith from a research group at Delft University of Technology is accredited with inventing the Arrayed Waveguide Grating (AWG), a device that can multiplex multiple wavelengths into a single optical fiber, that is applied a lot in modern digital connections to improve signal integrity. 
+Approaching the first decade of the 20th century, the Telecommunications Revolution encouraged various communication methods enabled by advancements in optical waveguides, serving as a transmission medium between communication systems. 
+Now we are equipped with mobile phones, wireless communication, digitalized services, and various other transmission technologies. 
+Transitioning into nowadays, waveguides and photonics can be applied to sensors, biomedical devices, and quantum computing. 
+While photonic sensors offer high sensitivity and immunity to electromagnetic interference, quantum-enhanced sensors use quantum states of light to improve overall performance.
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{fig1.eps}
-    \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
+    \includegraphics[width = 9.5cm]{Timeline.png}
+    \caption{Mechanism of Total Internal Reflection within the Core-Cladding Structure} 
     \end{figure}
 
 
@@ -116,11 +144,11 @@ By leveraging these principles, optical waveguides become powerful tools in the 
 forming the backbone of numerous optical communication and sensing systems. A deeper exploration of these principles provides a foundational understanding essential for designing advanced photonic 
 devices and systems, as being explored in state of the art mechanisms for optical waveguides.
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=8.5cm]{fig1.eps}
-%     \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
-%     \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8.5cm]{Silicon-Waveguide.png}
+    \caption{Mechanism of Total Internal Reflection within the Core-Cladding Structure} 
+    \end{figure}
 
 \section{Electromagnetic Mechanisms}
 
@@ -133,7 +161,6 @@ The basis of the propagation of light through a waveguide can be described using
 
 \begin{equation}
     E_k(x, z) = E_k(x)e^{iKx}e^{i\beta z}
-
 \end{equation}
 
 \subsection{Propagation Modes for Multiple Harmonic Wavelengths}
@@ -151,7 +178,6 @@ $d$ is the core diameter. By carefully designing the waveguide dimensions, diffe
 The design requirements for the waveguides may be computed given the following relation:
 \begin{equation}
     d_i = \frac{\lambda}{4n_i}(2N + 1)\left[1 - \frac{n_c^2}{n_i^2} + \frac{\lambda^2}{4n_i^2d_c^2}\right]^{-0.5}
-
 \end{equation}
 
 \subsection{Birefringence for Encoding Information through Polarization States}
@@ -162,70 +188,77 @@ By inducing controlled birefringence in the waveguide, information can be encode
 The birefringence \(\Delta n\) of a material is defined as the difference between the refractive indices of the ordinary ray \(n_o\) and the extraordinary ray \(n_e\):
 
 \[
-\Delta n = n_e - n_o
-\]
-
-For uniaxial crystals, which have one axis that is different from the other two, the birefringence equation can be further explained using the refractive indices:
-
-\[
-\Delta n = \sqrt{\frac{1}{n_o^2} + \frac{1}{n_e^2}}
-\]
-
-The refractive indices \(n_o\) and \(n_e\) can also be functions of the wavelength of the light \(\lambda\) and the temperature of the material \(T\), among other factors.
-
-
-\subsection{Overview}
-The electromagnetic principles of Total Internal Reflection, diverse propagation modes accommodating multiple harmonic wavelengths, 
-and birefringence for encoding information allows optical waveguides the versatility to aid several broad modern technologies, 
-from high-capacity data transmission in telecommunications to secure quantum communication protocols. Despite the associated complexities within these fields, 
-they all rely on foundational principles discussed in our lectures: of light's interaction with materials, propagation theory, and polarization.
-
-
-\section{System Integration}
-
-\section*{Silicon-Based Photonic Integrated Circuits}
+    \Delta n = n_e - n_o
+    \]
+    
+    For uniaxial crystals, which have one axis that is different from the other two, the birefringence equation can be further explained using the refractive indices:
+    
+    \[
+        \Delta n = \sqrt{\frac{1}{n_o^2} + \frac{1}{n_e^2}}
+        \]
+        
+        The refractive indices \(n_o\) and \(n_e\) can also be functions of the wavelength of the light \(\lambda\) and the temperature of the material \(T\), among other factors.
+        
+        
+        \subsection{Overview}
+        The electromagnetic principles of Total Internal Reflection, diverse propagation modes accommodating multiple harmonic wavelengths, 
+        and birefringence for encoding information allows optical waveguides the versatility to aid several broad modern technologies, 
+        from high-capacity data transmission in telecommunications to secure quantum communication protocols. Despite the associated complexities within these fields, 
+        they all rely on foundational principles discussed in our lectures: of light's interaction with materials, propagation theory, and polarization.
+        
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=8.5cm]{TotalInternal.png}
+            \caption{Mechanism of Total Internal Reflection within the Core-Cladding Structure} 
+            \end{figure}
+        
+        \section{System Integration}
+        
+\subsection{Silicon-Based Photonic Integrated Circuits}
 
 Silicon-based PICs benefit from established semiconductor technologies, offering dense integration due to silicon's high refractive index, despite its indirect bandgap limiting light emission—necessitating hybrid approaches with direct bandgap materials for sources. System integration must address material compatibility, thermal management for performance stability, and the development of low-loss optical-electrical interconnects for coupling with electronic components.
 
-\section*{Metamaterial-Based Photonic Integrated Circuits}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8.5cm]{Silicon Photonic.png}
+    \caption{Silicon Photonic Integrated Circuit} 
+    \end{figure}
+
+\subsection{Metamaterial-Based Photonic Integrated Circuits}
 
 Metamaterial-based PICs exploit engineered structures to achieve unique optical properties, such as negative refractive indices, enabling miniaturization and novel functionalities. The integration challenges include advanced nanofabrication for complex structures, managing high intrinsic losses, and ensuring compatibility with conventional processes. Scalability, testing, packaging, and standardization remain pivotal for the practical application of both PIC types.
 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=8.5cm]{fig1.eps}
-    \caption{\label{tab1}BCC Unit Cell structure, with an atom at the center of the "body" of the cell. Adapted from \cite{ref01}.} 
+    \includegraphics[width=8.5cm]{IMG_0411.png}
+    \caption{Metalens (TO Splitter) Waveguide System} 
     \end{figure}
-
-\textbf{Anirudh}: you can decide how you want to organize this 
-
 \section{Comparative Analysis of Modern Optical Waveguide Technologies}
 
 Advancements in optical waveguide technologies, namely in materials development, have spurred a multitude of developments tailored towards waveguide efficiency and enhanced optical control. This section offers a comparative analysis centered around fabrication research and the introduction of versatility in usage.
 
 \subsection{Fiber Optics vs Photonic Integrated Circuits (PICs)}
 
-Fiber optics have long been the backbone of high-speed data transmission, offering low propagation loss and high bandwidth. However, the emergence of Photonic Integrated Circuits (PICs) has introduced a paradigm shift by integrating multiple optical components onto a single chip. The chip fabrication process is one that is well-defined; silicon fabrication is a technology that has been largely perfected over the past 50 years of innovation. Thus, not only does waveguide integration at the IC level reduce the physical footprint of waveguide manufacturing, but it also enhances the overall throughput of interconnects. Figure \ref{fig:fiber_vs_pic} illustrates the conceptual difference between traditional fiber optics and PICs.
+Fiber optics have long been the backbone of high-speed data transmission, offering low propagation loss and high bandwidth. However, the emergence of Photonic Integrated Circuits (PICs) has introduced a paradigm shift by integrating multiple optical components onto a single chip. The chip fabrication process is one that is well-defined; silicon fabrication is a technology that has been largely perfected over the past 50 years of innovation. Thus, not only does waveguide integration at the IC level reduce the physical footprint of waveguide manufacturing, but it also enhances the overall throughput of interconnects. 
 
-\textbf{ANIRUDH: find a good pic and put it here (literally anywhere its commented out)}
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.8\linewidth]{fiber_vs_pic.png}
-%     \caption{Comparison between traditional Fiber Optics and Photonic Integrated Circuits (PICs).}
-%     \label{fig:fiber_vs_pic}
-% \end{figure}
+
 
 This transition from fiber optics to PICs underscores the importance of on-chip integration for next-generation optical communication systems. Improved signal to noise ratio, power efficiency, throughput, reliability, and ease of manufacturing are some of the key benefits; the engineering problem is thus reduced to a 
 materials engineering problem: finding novel materials that adhere to the precision and technologies with the chip fabrication process while retaining inmportant waveguide 
 properties of coupled light control and distortionless transmission of photons through the medium.
 
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=8.5cm]{PhotonicIC.png}
+%     \caption{Planned Layout of Photonic Integrated Circuit} 
+%     \end{figure}
 \subsection{Silicon Photonics vs Doped Semiconductors}
 
 The selection of materials in photonics is a critical aspect that influences both waveguide design and integration into existing semiconductor processes. 
 Silicon Photonics, leveraging the compatibility with Complementary Metal-Oxide-Semiconductor (CMOS) processes, has gained prominence. However, the fine balance between utilizing traditional CMOS fabrication techniques and incorporating novel materials with superior properties, such as Lithium Niobate, is a topic of ongoing exploration.
 
-Silicon Photonics, depicted in Figure \ref{fig:silicon_vs_doped}, offers a seamless integration path with existing electronic circuits, but its limitations in nonlinear effects and light-emitting capabilities drive the exploration of doped semiconductors. Many of the 
+Silicon Photonics offers a seamless integration path with existing electronic circuits, but its limitations in nonlinear effects and light-emitting capabilities drive the exploration of doped semiconductors. Many of the 
 reasons that Silicon has been a boon for the electronics age can be extended for application in the world of photonics. Silicon performs well across large bandwidths, is capable of high speed modulation, and perhaps most importantly, is highly compatible with existing CMOS technology.
 With that said, limited nonlinear properties and temperature sensitivity render it a rather complex option for seamless integration.
 
@@ -233,12 +266,6 @@ On the other hand, novel materials like Lithium Niobate exhibit excellent nonlin
 challenges present in the fabrication process, as well as reduced bandwidth of performance, Lithium Niobate has well-characterized electromagnetic properties while minimizing propagation loss, 
 making it an active area of research for waveguides on integrated photonics.
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.8\linewidth]{silicon_vs_doped.png}
-%     \caption{Comparison between Silicon Photonics and Doped Semiconductors.}
-%     \label{fig:silicon_vs_doped}
-% \end{figure}
 
 The first level of materials-level analysis for improved waveguide performance is centered around the increasing popularity of photonic integrated circuits. 
 The preliminary options require a strong understanding of existing CMOS process flow, and analysis of materials with similar electromagnetic properties, such as Lithium Niobate.
@@ -251,17 +278,19 @@ Plasmonic Waveguides, exploiting surface plasmon resonance, enable extremely com
 Firstly, plasmonic waveguides enable the confinement of light in dimensions significantly smaller than the wavelength, making them ideal for applications with stringent size requirements, such as on-chip integration.
 Next, enhanced field confinement from surface plasmon resonance allows plasmonic waveguide structures to be suitable for applications involving sensing and nonlinear optics.
 
-On the other hand, Metamaterials, illustrated in Figure \ref{fig:plasmonic_vs_metamaterial}, provide unprecedented control over the wavefront by tailoring the material's electromagnetic response. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=8.5cm]{plasmonic.png}
+    \caption{Plasmonic Waveguide Design Pipeline} 
+    \end{figure}
+
+
+On the other hand, Metamaterials provide unprecedented control over the wavefront by tailoring the material's electromagnetic response. 
 Metamaterials can be engineered to display truly exotic phenomena. Along with incredible control over dispersion characteristics, the notion of "negative refractive indices" can be developed, and are highly 
 useful for unconventional waveguides with distinctive transmission characteristics.
 
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.8\linewidth]{plasmonic_vs_metamaterial.png}
-%     \caption{Comparison between Plasmonic Waveguides and Metamaterials.}
-%     \label{fig:plasmonic_vs_metamaterial}
-% \end{figure}
+
 
 Plasmonic Waveguides excel in miniaturization but face challenges related to high losses. Metamaterials, while offering superior wavefront control, often require sophisticated fabrication processes. The choice between these technologies depends on specific application requirements, balancing size constraints with the need for precise control over light propagation.
 
@@ -269,21 +298,105 @@ In conclusion, the comparative analysis of these optical waveguide themes highli
 Although discussion of nanoengineering and technology for waveguides is rather exotic and largely theoretical at this time, 
 such research underscores the exciting progress this field continues to make for communication, encoding, and computing applications.
 
-\section{Concluding Thoughts and Ideas for the Future}
+\section{Ideas for the Future and Concluding Thoughts}
 
-self explanatory 
+
+The organization of this section is centered around both science and engineering perspectives.
+The science aspect of this problem is centered around challenging the fundamental physical underpinnings that support
+current waveguide structures. The engineering aspect of this problem is application focused: we seek to understand the
+different ways waveguide technology can be applied across a variety of fields.
+
+
+
+
+\subsection{Improving the Technology}
+
+
+\subsubsection{Optofluidics}
+Optofluidics offers a groundbreaking approach to enhance waveguide technology by leveraging fluidic dynamics to control and confine light.
+The fundamental principle involves using microfluidic channels to manipulate fluids with tunable optical properties.
+By strategically introducing liquids with varying refractive indices into the waveguide,
+the effective refractive index of the system can be dynamically modified, steering and trapping light.
+
+
+This fluidic control enables adaptive tuning of waveguide properties,
+impacting factors such as dispersion and mode confinement. Optofluidic waveguides,
+therefore, present a versatile platform for tailoring light propagation characteristics.
+
+
+\subsubsection{Metamaterials}
+Metamaterials offer a transformative avenue for advancing waveguide technology by employing dielectric
+metasurfaces to finely control and shape wavefronts. Fundamentally, these engineered materials exhibit
+unique electromagnetic properties not found in nature, allowing precise tailoring of refractive indices
+and wave propagation characteristics. In waveguides, metamaterials are strategically integrated to manipulate
+the direction and distribution of guided light.
+
+
+By incorporating metasurfaces into the waveguide structure,
+researchers can achieve unprecedented control over the wavefront,
+enabling functionalities like beam steering, phase modulation, and subwavelength imaging.
+Metamaterial-based waveguides empower engineers to design compact, high-performance devices with tailored optical responses.
+This level of control contributes to the miniaturization and enhanced functionality of waveguide systems, holding promise
+for applications in telecommunications, sensing, and on-chip photonics.
+
+
+\subsubsection{Nonlinear Optics}
+Nonlinear optics stands as a pivotal domain for advancing waveguide
+technology by harnessing the inherent nonlinear properties of materials
+to encode information, notably through processes like 4-wave mixing.
+Fundamentally, nonlinear optics explores how the response of a material
+to intense light is not directly proportional to the incident intensity,
+giving rise to phenomena like frequency conversion and optical modulation.
+
+
+In the context of waveguides, nonlinear effects enable the manipulation of
+optical signals within a confined space. Through processes such as 4-wave mixing,
+new frequencies are generated, allowing for information encoding in a manner beyond
+linear transmission. This nonlinear functionality opens avenues for enhanced signal
+processing, optical switching, and the development of integrated photonics devices.
+By exploiting nonlinear optics in waveguide design, engineers can pave the way for
+compact and efficient systems, unlocking novel applications in high-capacity data
+transmission and quantum information processing.
+
+
+\subsection{Applying The Technology}
+\subsubsection{Integrated Photonics for Medical Applications}
+In the realm of biochip development for integrated photonics, waveguide technologies are integral to the manufacturing processes, offering precise light guidance for enhanced optical interactions with biological samples. Silicon photonics, a leading technology in this domain, allows for the seamless integration of waveguides on a biochip, thanks to its compatibility with CMOS fabrication.
+
+
+Waveguide manufacturing involves photolithography and etching techniques to carve intricate structures on the chip, guiding light through specific pathways. Biochips leverage these waveguides to create miniaturized, integrated optical systems. The waveguides enable targeted light delivery to interact with bioanalytes on the chip's surface, supporting applications such as biosensing, biomolecule detection, and medical diagnostics.
+\subsubsection{Integrated Photonics in Quantum Technology}
+In the realm of quantum computing, the development of waveguide technology within integrated photonics is pivotal for harnessing the unique properties of quantum states. Silicon photonics, as a leading platform, utilizes on-chip waveguides to manipulate and control qubits, the fundamental units of quantum information. These waveguides are intricately designed to guide single photons, allowing for precise interactions with quantum components.
+
+
+The integration of on-chip lasers with waveguides plays a crucial role in trapping and manipulating qubits. This configuration enables the creation of quantum circuits, where controlled photon interactions drive quantum gates and operations. The waveguide's ability to guide photons with minimal loss and maintain their quantum coherence is instrumental in the reliability and efficiency of quantum computations.
+Thus, the tailored design of waveguides within integrated photonics is indispensable for the successful implementation of quantum computing applications.
+
+
+
+
+Clearly, science and engineering must work together in harmony to redefine and improve waveguide technologies for the future!
+
+
+
 
 
 
 
 \section{Acknowledgements}
 
-bibliography is very important (references section needs to be modified in example.bib)
+
+The authors would like to thank the 18-300 course instructor (Dr. Maysam Chamanzar)
+and teaching staff (Lloyd Llobo) at Carnegie Mellon University for their support and
+guidance during this semester, and in the development of this final project.
+
 
 \bibliography{IEEEabrv,icdp2009}
 
-\end{document}
 
+
+
+\end{document}
 
 
 

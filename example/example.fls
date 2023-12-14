@@ -474,29 +474,12 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
+INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
 OUTPUT /Users/surya/Downloads/18300FinalReport/example/example.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -506,36 +489,56 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Timeline.png
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1.eps
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
-INPUT /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf
+INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/TotalInternal.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/IMG_0411.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/IMG_0411.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/IMG_0411.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/IMG_0411.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/IMG_0411.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/plasmonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/plasmonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/plasmonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/plasmonic.png
+INPUT /Users/surya/Downloads/18300FinalReport/example/plasmonic.png
 INPUT /Users/surya/Downloads/18300FinalReport/example/example.bbl
 INPUT /Users/surya/Downloads/18300FinalReport/example/example.bbl
 INPUT /Users/surya/Downloads/18300FinalReport/example/example.bbl
 INPUT /Users/surya/Downloads/18300FinalReport/example/example.bbl
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Users/surya/Downloads/18300FinalReport/example/example.aux
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb

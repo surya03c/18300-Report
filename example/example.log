@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.21)  13 DEC 2023 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,14 +246,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 18.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (/Users/surya/Downloads/18300FinalReport/example/example.aux
-
-LaTeX Warning: Label `tab1' multiply defined.
-
-
-LaTeX Warning: Label `tab1' multiply defined.
-
-)
+) (/Users/surya/Downloads/18300FinalReport/example/example.aux)
 \openout1 = `example.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -364,91 +357,107 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 31.
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 1155157 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 41326 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 44.
-Package epstopdf Info: Output file is already uptodate.
+<Screenshot 2023-12-13 at 11.02.55 PM.png, id=1, 360.34625pt x 367.3725pt>
+File: Screenshot 2023-12-13 at 11.02.55 PM.png Graphic file (type png)
+<use Screenshot 2023-12-13 at 11.02.55 PM.png>
+Package pdftex.def Info: Screenshot 2023-12-13 at 11.02.55 PM.png  used on input line 65.
+(pdftex.def)             Requested size: 227.62204pt x 232.0569pt.
 
 
-pdfTeX warning: pdflatex (file /Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<fig1-eps-converted-to.pdf, id=1, 326.21875pt x 146.5475pt>
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 44.
-(pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 1155157 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 41326 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 55.
-(pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \hbox (badness 4859) in paragraph at lines 61--66
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+ </Users/surya/Downloads/18300FinalReport/example/Screenshot 2023-12-13 at 11.02.55 PM.png>]
+<Timeline.png, id=12, 1079.03125pt x 322.20375pt>
+File: Timeline.png Graphic file (type png)
+<use Timeline.png>
+Package pdftex.def Info: Timeline.png  used on input line 89.
+(pdftex.def)             Requested size: 270.30118pt x 80.71297pt.
+
+Overfull \hbox (19.91682pt too wide) in paragraph at lines 89--90
+ [][] 
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 97--102
 \OT1/ptm/m/n/10 Understanding the elec-tro-mag-netic prop-er-ties of op-ti-cal
  []
 
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+<Silicon-Waveguide.png, id=13, 3495.0575pt x 1044.90375pt>
+File: Silicon-Waveguide.png Graphic file (type png)
+<use Silicon-Waveguide.png>
+Package pdftex.def Info: Silicon-Waveguide.png  used on input line 149.
+(pdftex.def)             Requested size: 241.84842pt x 72.28976pt.
+[2 </Users/surya/Downloads/18300FinalReport/example/Timeline.png> </Users/surya/Downloads/18300FinalReport/example/Silicon-Waveguide.png>]
+<TotalInternal.png, id=24, 483.8075pt x 258.9675pt>
+File: TotalInternal.png Graphic file (type png)
+<use TotalInternal.png>
+Package pdftex.def Info: TotalInternal.png  used on input line 211.
+(pdftex.def)             Requested size: 241.84842pt x 129.45575pt.
+
+Underfull \hbox (badness 2452) in paragraph at lines 219--220
+\OT1/ptm/m/n/10 Silicon-based PICs ben-e-fit from es-tab-lished semi-con-duc-
+ []
+
+<Silicon Photonic.png, id=25, 1003.75pt x 434.62375pt>
+File: Silicon Photonic.png Graphic file (type png)
+<use Silicon Photonic.png>
+Package pdftex.def Info: Silicon Photonic.png  used on input line 223.
+(pdftex.def)             Requested size: 241.84842pt x 104.71637pt.
+
+Underfull \hbox (badness 2142) in paragraph at lines 229--230
+\OT1/ptm/m/n/10 Metamaterial-based PICs ex-ploit en-gi-neered struc-tures to
+ []
 
 
+Underfull \vbox (badness 1997) has occurred while \output is active []
 
- </Users/surya/Downloads/18300FinalReport/example/fig1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig1.eps>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 1155157 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-12-09 19:51:30
-(epstopdf)                    size: 41326 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 155.
-Package epstopdf Info: Output file is already uptodate.
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 155.
-(pdftex.def)             Requested size: 241.84842pt x 108.64915pt.
+ [3 </Users/surya/Downloads/18300FinalReport/example/TotalInternal.png> </Users/surya/Downloads/18300FinalReport/example/Silicon Photonic.png>]
+<IMG_0411.png, id=33, 1053.9375pt x 615.29875pt>
+File: IMG_0411.png Graphic file (type png)
+<use IMG_0411.png>
+Package pdftex.def Info: IMG_0411.png  used on input line 234.
+(pdftex.def)             Requested size: 241.84842pt x 141.18712pt.
+<plasmonic.png, id=34, 926.46124pt x 537.00626pt>
+File: plasmonic.png Graphic file (type png)
+<use plasmonic.png>
+Package pdftex.def Info: plasmonic.png  used on input line 283.
+(pdftex.def)             Requested size: 241.84842pt x 140.18372pt.
 
 
-LaTeX Warning: Reference `fig:fiber_vs_pic' on page 2 undefined on input line 167.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]
+[4 </Users/surya/Downloads/18300FinalReport/example/IMG_0411.png>]
+Underfull \hbox (badness 1308) in paragraph at lines 335--341
+\OT1/ptm/m/n/10 waveg-uides em-power en-gi-neers to de-sign com-pact, high-
+ []
 
-LaTeX Warning: Reference `fig:silicon_vs_doped' on page 3 undefined on input line 186.
+[5 </Users/surya/Downloads/18300FinalReport/example/plasmonic.png (PNG copy)>] (/Users/surya/Downloads/18300FinalReport/example/example.bbl
 
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-LaTeX Warning: Reference `fig:plasmonic_vs_metamaterial' on page 3 undefined on input line 212.
+) [6
 
-(/Users/surya/Downloads/18300FinalReport/example/example.bbl) [3] (/Users/surya/Downloads/18300FinalReport/example/example.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (/Users/surya/Downloads/18300FinalReport/example/example.aux) ) 
 Here is how much of TeX's memory you used:
- 5683 strings out of 478994
- 122211 string characters out of 5858184
- 407662 words of memory out of 5000000
- 23050 multiletter control sequences out of 15000+600000
- 454236 words of font info for 72 fonts, out of 8000000 for 9000
+ 5711 strings out of 478994
+ 122898 string characters out of 5858184
+ 406733 words of memory out of 5000000
+ 23074 multiletter control sequences out of 15000+600000
+ 452552 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,77p,823b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (3 pages, 159143 bytes).
+ 73i,8n,77p,685b,291s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on /Users/surya/Downloads/18300FinalReport/example/example.pdf (6 pages, 1991627 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
